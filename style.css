@@ -1,0 +1,33 @@
+
+   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+
+
+}
+
+header {
+
+  color: rgb(211, 25, 25);
+  padding: 20px;
+  text-align: center;
+  height: 85px;
+  background: #378345;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+.mlink{
+  display: flex;
+  gap: 10px;
+}
