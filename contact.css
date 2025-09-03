@@ -103,13 +103,16 @@ form input[type="submit"]:hover {
 }
 
 /* Footer */
+p {
+  font-size: 150%;
+}
 footer {
   background: #2c3e50;
   color: white;
   text-align: center;
   padding: 1rem;
   margin-top: auto;
-}
+} 
 
 /* Responsive */
 @media (max-width: 600px) {
