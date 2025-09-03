@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-/* General Body */
+/*  Body */
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background: #f4f7f9;
+   background: #c0dcee;
   color: #333;
   display: flex;
   flex-direction: column;
@@ -18,9 +18,12 @@ body {
 
 /* Header */
 header {
+  display: flex;
+  justify-content: space-between;
   background: #2c3e50;
   color: white;
   padding: 1.2rem 1rem;
+
   text-align: center;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
@@ -45,7 +48,7 @@ header nav a:hover {
   border-bottom: 2px solid #1abc9c;
 }
 
-/* Page Title */
+/* Title */
 h2 {
   text-align: center;
   font-size: 1.8rem;
@@ -53,7 +56,7 @@ h2 {
   color: #2c3e50;
 }
 
-/* Skills List */
+/* Skills */
 ul {
   display: flex;
   flex-wrap: wrap;
