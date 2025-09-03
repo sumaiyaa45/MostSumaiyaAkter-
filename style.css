@@ -32,7 +32,6 @@ header h1 {
 }
 
 header nav {
-
   margin-top: 0.5rem;
 }
 
@@ -51,12 +50,13 @@ header nav a:hover {
 
 /* Table (About Section) */
 table {
- 
   width: 90%;
   max-width: 1000px;
   margin: 2rem auto;
   border-collapse: collapse;
-
+}
+p {
+  font-size: 150%;
 }
 
 td {
@@ -71,7 +71,7 @@ td h2 {
 }
 
 td p {
-  font-size: 1rem;
+  font-size: 150%;
   line-height: 1.6;
 }
 
