@@ -21,10 +21,17 @@
         </nav>
     </header>
     <h2>Contact Me</h2>
-    <form>
-      Name : <input type="text" /> Email :<input type="email" /> Message: <br />
-      <textarea rows="2" cols="20"></textarea>
-      <input type="submit" value="Send" />
+    <form action="https://formsubmit.co/sumaiyaakter01631@gmail.com" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required />
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+        
+        <label for="message">Message:</label><br />
+        <textarea rows="2" cols="20" name="message" id="message" required></textarea>
+        
+        <input type="submit" value="Send" />
     </form>
 
     <footer>
